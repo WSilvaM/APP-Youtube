@@ -1,3 +1,12 @@
 import 'package:flutter/material.dart';
 
-void main() {}
+import 'HomePage.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: HomePage(),
+      debugShowCheckedModeBanner: false,
+    ),
+  );
+}
